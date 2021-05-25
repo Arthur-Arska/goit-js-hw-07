@@ -11,3 +11,17 @@ img {
     margin-bottom: 10px;
     list-style-type: none;
 }
+
+/*task 6 */
+
+#validation-input {
+    border: 3px solid #bdbdbd;
+}
+
+#validation-input.valid {
+    border-color: #4caf50;
+}
+
+#validation-input.invalid {
+    border-color: #f44336;
+}
